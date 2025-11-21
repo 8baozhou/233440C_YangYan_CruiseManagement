@@ -12,7 +12,7 @@ It allows users to:
 Export the json files to MongoDB.
 Or you can choose not to, but you cannot book any cruise trips without cruises and customers.
 
-#PLEASE ENTER ALL DATETIME FIELDS PROPERLY OR IT WILL NOT BE ADDED IN THE DATABASE. THESE ARE NOT VALIDATED.
+# PLEASE ENTER ALL DATETIME FIELDS PROPERLY OR IT WILL NOT BE ADDED IN THE DATABASE. THESE ARE NOT VALIDATED.
 
 # References
 [Stardream Cruises](https://stardreamcruises.com/en-sg) is used as inspiration.
