@@ -6,7 +6,6 @@ It allows users to:
 - Create customer profiles with personal and emergency contact details.
 - Book a cruise for an existing customer.
 - Retrieve lists of all cruises, customers, and bookings.
-- Update statuses of cruises, customers and bookings.
 
 ## Setup Instructions
 Export the json files to MongoDB.
