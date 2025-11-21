@@ -139,7 +139,7 @@ async listBookings() {
       customerId: { $in: customerIds },
     }).lean();
 
-    //build map
+    //build lookup to avoid looping ("C001": { ... }, etc. )
     const customerMap = {};
     customers.forEach((c) => {
       customerMap[c.customerId] = c;
@@ -156,7 +156,64 @@ async listBookings() {
     console.log(e.message);
     throw new Error("Error retrieving bookings.");
   }
-}
+},
+
+  async updateCruiseStatus(cruiseId, newStatus) {
+    try {
+      const cruise = await Cruise.findByIdAndUpdate(
+        cruiseId,
+        { status: newStatus },
+        { new: true }
+      );
+
+      if (!cruise) {
+        throw new Error("Cruise not found.");
+      }
+
+      return cruise;
+    } catch (e) {
+      console.log(e.message);
+      throw new Error("Error updating cruise status.");
+    }
+  },
+
+  async updateCustomerStatus(customerId, newStatus) {
+    try {
+      const customer = await Customer.findByIdAndUpdate(
+        customerId,
+        { status: newStatus },
+        { new: true }
+      );
+
+      if (!customer) {
+        throw new Error("Customer not found.");
+      }
+
+      return customer;
+    } catch (e) {
+      console.log(e.message);
+      throw new Error("Error updating customer status.");
+    }
+  },
+
+  async updateBookingStatus(bookingId, newStatus) {
+    try {
+      const booking = await Booking.findByIdAndUpdate(
+        bookingId,
+        { status: newStatus },
+        { new: true }
+      );
+
+      if (!booking) {
+        throw new Error("Booking not found.");
+      }
+
+      return booking;
+    } catch (e) {
+      console.log(e.message);
+      throw new Error("Error updating booking status.");
+    }
+  },
 };
 
 module.exports = db;

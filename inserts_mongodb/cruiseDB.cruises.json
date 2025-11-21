@@ -1,0 +1,72 @@
+[{
+  "_id": {
+    "$oid": "691ff25e3c5816d59b4c0b2b"
+  },
+  "name": "14Nov Singapore to Tokyo Cruise",
+  "shipType": "Queen Cruise",
+  "price": 2600,
+  "departurePort": "Singapore",
+  "arrivalPort": "Yokohama",
+  "schedule": {
+    "departureDate": "2025-11-14",
+    "arrivalDate": "2025-11-19",
+    "checkInTime": "10:00",
+    "checkOutTime": "15:00"
+  },
+  "status": "active",
+  "createdAt": {
+    "$date": "2025-11-21T05:02:22.863Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-21T05:02:22.863Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691ff555f0525af5772f7fab"
+  },
+  "name": "12Dec Singapore to Tokyo Cruise",
+  "shipType": "New Cruise",
+  "price": 2000,
+  "departurePort": "Singapore",
+  "arrivalPort": "Yokohama",
+  "schedule": {
+    "departureDate": "2025-12-12",
+    "arrivalDate": "2025-12-18",
+    "checkInTime": "16:00",
+    "checkOutTime": "10:00"
+  },
+  "status": "active",
+  "createdAt": {
+    "$date": "2025-11-21T05:15:01.763Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-21T05:15:01.763Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691ffa933c9a8e0f8cbd8071"
+  },
+  "name": "26Nov Melacca to Phuket Cruise",
+  "shipType": "Nanyang Cruise",
+  "price": 1300,
+  "departurePort": "Melacca",
+  "arrivalPort": "Phuket",
+  "schedule": {
+    "departureDate": "2025-11-26",
+    "arrivalDate": "2025-11-28",
+    "checkInTime": "17:00",
+    "checkOutTime": "14:00"
+  },
+  "status": "active",
+  "createdAt": {
+    "$date": "2025-11-21T05:37:23.625Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-21T05:37:23.625Z"
+  },
+  "__v": 0
+}]

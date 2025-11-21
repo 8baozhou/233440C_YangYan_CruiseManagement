@@ -1,0 +1,69 @@
+[{
+  "_id": {
+    "$oid": "691fdb59d8822e457b2576f9"
+  },
+  "customerId": "C001",
+  "firstName": "Alice",
+  "lastName": "Tan",
+  "email": "alicetan@gmail.com",
+  "phone": "12345678",
+  "nationality": "Singaporean",
+  "emergencyContact": {
+    "name": "Alan Tan",
+    "phone": "12345677"
+  },
+  "status": "active",
+  "createdAt": {
+    "$date": "2025-11-21T03:24:09.152Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-21T03:24:09.152Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691ff50df0525af5772f7fa9"
+  },
+  "customerId": "C002",
+  "firstName": "Peter",
+  "lastName": "Leow",
+  "email": "peterleow@gmail.com",
+  "phone": "12345555",
+  "nationality": "Singaporean",
+  "emergencyContact": {
+    "name": "Patrick Leow",
+    "phone": "12345666"
+  },
+  "status": "active",
+  "createdAt": {
+    "$date": "2025-11-21T05:13:49.736Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-21T05:13:49.736Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691ffae53c9a8e0f8cbd8073"
+  },
+  "customerId": "C003",
+  "firstName": "Jayden",
+  "lastName": "Smith",
+  "email": "jaydensmith@gmail.com",
+  "phone": "12344444",
+  "nationality": "Malaysian",
+  "emergencyContact": {
+    "name": "Janice Smith",
+    "phone": "12333333"
+  },
+  "status": "active",
+  "createdAt": {
+    "$date": "2025-11-21T05:38:45.233Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-21T05:38:45.233Z"
+  },
+  "__v": 0
+}]
