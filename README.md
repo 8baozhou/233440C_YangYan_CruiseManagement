@@ -1,12 +1,19 @@
-# Assignment 1
+# Cruise Management App | Yang Yan 233440C
 
-You will only need one file, ie, your node module, for this assignment.
+This Node.js module is a simple menu-driven cruise booking system designed for managing cruises, customers, and bookings.  
+It allows users to:
+- Create cruise trips with names, ship types, routes, prices, and schedules.
+- Create customer profiles with personal and emergency contact details.
+- Book a cruise for an existing customer.
+- Retrieve lists of all cruises, customers, and bookings.
+- Update statuses of cruises, customers and bookings.
 
-In this readme file, describe how to use your node module. It could be similar to **app.js** from Lab2, where you call some functions in your node module and display the output. Describe how to setup your node module, if any. Describe how to call the functions, what parameters required and so on.
+## Setup Instructions
+Export the json files to MongoDB.
+Or you can choose not to, but you cannot book any cruise trips without cruises and customers.
 
-You can press **Ctrl+Shift+V** in this file in Visual Studio Code to see a live preview of the readme file.
-
-For some tips in formatting text in readme file, refer to https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+# PLEASE ENTER ALL DATETIME FIELDS PROPERLY OR IT WILL NOT BE ADDED IN THE DATABASE. THESE ARE NOT VALIDATED.
 
 # References
-Provide the references that you have used to support your assignment. 
+[Stardream Cruises](https://stardreamcruises.com/en-sg) is used as inspiration.
+[W3Schools](https://www.w3schools.com/js/) for the more complex functions.
